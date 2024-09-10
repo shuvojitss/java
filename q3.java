@@ -16,7 +16,7 @@ super(x,y);
 bathroom=p;
 studytable=q;
 nightlamp=r;
-System.out.println("BATHROOM ROOM");
+System.out.println("BEDROOM ROOM");
 }
 void display(){
 System.out.println("Bathroom = " + bathroom);
@@ -47,3 +47,14 @@ ob2.calc_area();
 ob2.display();
 }
 }
+/*
+BEDROOM ROOM
+Area = 200.0
+Bathroom = 2
+Studytable = 7
+Nightlamp = 9
+DRAWING ROOM
+Area = 1200.0
+Sofa = 4
+Wall Cabinet = 1
+*/

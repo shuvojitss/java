@@ -28,3 +28,7 @@ ref=ob3;
 ref.show();
 }
 }
+
+/*Inside A
+Inside B
+Inside C*/

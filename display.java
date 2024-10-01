@@ -24,3 +24,8 @@ class display{
 		ob2.area();
 	}
 }
+
+/*
+Area of Recatangle = 120.0
+Area of Recatangle = 30.0
+*/

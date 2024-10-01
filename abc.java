@@ -1,20 +1,22 @@
-class Test{
-int a;
-Test(int i){
-a=i;
+class A{
+	void method(){
+		System.out.println("In A");
+	}
 }
-Test incbytes(){
-Test temp=new Test(a+10);
-return temp;
+class B{
+	void method(){
+		System.out.println("In B");
+	}
 }
+class C extends A,B{
+	void method(){
+		System.out.println("In C");
+	}
 }
 class abc{
-public static void main(String args[]){
-Test ob= new Test(2);
-System.out.println(ob.a);
-Test ob1= ob.incbytes();
-System.out.println(ob1.a);
-Test ob2= ob1.incbytes();
-System.out.println(ob2.a);
+	public static void main(String args[]){
+		C ob = new C();
+		ob.method();
+	}
 }
-}
+

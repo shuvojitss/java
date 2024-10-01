@@ -15,3 +15,5 @@ class main{
 		ob.method();
 	}
 }
+
+/*Using interface for multiple inheritance*/

@@ -12,3 +12,9 @@ class test_run{
 		xyz ob = new xyz();
 	}
 }
+/*
+test_run.java:5: error: xyz is not abstract and does not override abstract method m2() in A
+class xyz implements A{
+^
+1 error
+	*/

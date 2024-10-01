@@ -20,3 +20,9 @@ class abc{
 	}
 }
 
+/*
+abc.java:11: error: '{' expected
+class C extends A,B{
+                 ^
+1 error
+	*/
